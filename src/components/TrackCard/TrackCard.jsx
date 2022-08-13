@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 import './TrackCardStyle.css';
@@ -23,14 +24,13 @@ const TrackCard = ({ track }) => {
 				<div style={{ color: '#b3b3b3', lineHeight: '0.5' }}>
 					{artists.map((artist, index) => (
 						<>
-							<a
+							<Link
 								onClick={e => e.stopPropagation()}
-								draggable="false"
-								href={`/artist/${artist.id}/${artist.name}`}
+								to={`/artist/${artist.id}/${artist.name}`}
 								className="trackArtist"
 							>
 								{artist.name}
-							</a>
+							</Link>
 							{index !== artists.length - 1 && ', '}
 						</>
 					))}

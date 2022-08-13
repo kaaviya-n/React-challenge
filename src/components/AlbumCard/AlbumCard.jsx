@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 import './AlbumCardStyle.css';
@@ -18,14 +19,13 @@ const AlbumCard = ({ album, onCardClick, from }) => {
 				<div style={{ color: '#b3b3b3', paddingTop: '7px', height: '40px' }}>
 					{artists.map((artist, index) => (
 						<>
-							<a
+							<Link
 								onClick={e => e.stopPropagation()}
-								draggable="false"
-								href={from !== 'artist' && `/artist/${artist.id}/${artist.name}`}
+								to={from !== 'artist' && `/artist/${artist.id}/${artist.name}`}
 								className="artistName"
 							>
 								{artist.name}
-							</a>
+							</Link>
 							{index !== artists.length - 1 && ', '}
 						</>
 					))}
