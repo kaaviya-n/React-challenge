@@ -23,7 +23,7 @@ const TrackCard = ({ track }) => {
 				<h4 className='trackName'>{name}</h4>
 				<div style={{ color: '#b3b3b3', lineHeight: '0.5' }}>
 					{artists.map((artist, index) => (
-						<div key={index}>
+						<div key={index} className="artistWrapper">
 							<Link
 								onClick={e => e.stopPropagation()}
 								to={`/artist/${artist.id}/${artist.name}`}

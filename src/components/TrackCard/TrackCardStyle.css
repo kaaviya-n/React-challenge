@@ -5,12 +5,14 @@
 .tableValueWrapper {
     flex-grow: 1;
     padding-left: 12px;
+    margin-bottom: 10px;
 }
 .trackName {
     line-height: 0;
     font-size: 16px;
     font-weight: 400;
     color: #ffffff;
+    padding-left: 12px;
 }
 .trackArtist {
     font-size: 14px;
@@ -31,4 +33,7 @@
     font-weight: 400;
     color: #a7a7a7;
     margin-right: 16px;
+}
+.artistWrapper:last-child {
+    padding-top: 10px;
 }
