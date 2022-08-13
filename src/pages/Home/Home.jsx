@@ -116,7 +116,7 @@ export const Home = () => {
 				<div className="sectionWrapper">
 					<div className="searchWrapper">
 						<h4 className="sectionTitle">Trending now</h4>
-						<input className="search" type="text" placeholder="Artist, Songs" onChange={handleOnSearch} value={searchQuery} />
+						<input className="search" type="text" placeholder="Search Albums" onChange={handleOnSearch} value={searchQuery} />
 					</div>
 
 					<div className="playlistWrapper">

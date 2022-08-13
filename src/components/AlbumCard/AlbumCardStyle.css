@@ -20,6 +20,11 @@
     align-items: center;
     flex-wrap: wrap;
 }
+@media screen and (max-width: 740px) {
+    .playlistWrapper {
+        justify-content: center;
+    }
+}
 .playlistCardWrapper {
     text-align: center;
     padding: 14px 16px;
