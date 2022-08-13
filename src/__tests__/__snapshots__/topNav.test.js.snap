@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UI testing - Top Navigation 1`] = `
+<div
+  className="topNavWrapper"
+>
+  <div
+    className="arrowList"
+  >
+    <svg
+      className="arrowWrapper"
+      fill="currentColor"
+      height="1em"
+      onClick={[Function]}
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M17.77 3.77L16 2 6 12l10 10 1.77-1.77L9.54 12z"
+      />
+    </svg>
+    <img
+      alt="Logo"
+      className="image"
+      src={
+        Object {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 24,
+          "src": "/img.jpg",
+          "width": 24,
+        }
+      }
+    />
+  </div>
+  <button
+    className="loginButton"
+    onClick={[Function]}
+  >
+    Logout
+  </button>
+</div>
+`;

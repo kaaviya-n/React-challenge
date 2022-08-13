@@ -22,7 +22,7 @@ const TopNav = ({ goBack }) => {
 				<img className="image" src={SpotifyLogo} alt="Logo" />
 			</div>    
 			<button className="loginButton" onClick={handleLogout}>
-          Logout
+          		Logout
 			</button>
 		</div>
 	);

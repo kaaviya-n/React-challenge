@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UI testing - Album card 1`] = `
+<div
+  className="playlistCardWrapper"
+>
+  <img
+    alt="album"
+    className="albumImage"
+    src="https://i.scdn.co/image/ab67616d00001e02b1494c5d42668590efcda7a2"
+    width="150px"
+  />
+  <div
+    style={
+      Object {
+        "paddingTop": "10px",
+        "width": "190px",
+      }
+    }
+  >
+    <div
+      className="title"
+    >
+      Y3
+    </div>
+    <div
+      style={
+        Object {
+          "color": "#b3b3b3",
+          "height": "40px",
+          "paddingTop": "7px",
+        }
+      }
+    >
+      <div>
+        <a
+          className="artistName"
+          href="#/artist/3kHVioJpVxlazAAKQ64pC1/Yuna"
+          onClick={[Function]}
+        >
+          Yuna
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

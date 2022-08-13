@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UI testing - Track card 1`] = `
+<div
+  className="tableContentWrapper"
+>
+  <h4
+    className="trackCount"
+  >
+    2
+  </h4>
+  <div
+    className="tableValueWrapper"
+  >
+    <h4
+      className="trackName"
+    >
+      Vikram - Title Track
+    </h4>
+    <div
+      style={
+        Object {
+          "color": "#b3b3b3",
+          "lineHeight": "0.5",
+        }
+      }
+    >
+      <div>
+        <a
+          className="trackArtist"
+          href="#/artist/4zCH9qm4R2DADamUHMCa6O/Anirudh Ravichander"
+          onClick={[Function]}
+        >
+          Anirudh Ravichander
+        </a>
+      </div>
+    </div>
+  </div>
+  <h4
+    className="trackDuration"
+  >
+    0
+  </h4>
+</div>
+`;

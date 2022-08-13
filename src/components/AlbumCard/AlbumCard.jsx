@@ -18,7 +18,7 @@ const AlbumCard = ({ album, onCardClick, from }) => {
 				<div className="title">{name}</div>
 				<div style={{ color: '#b3b3b3', paddingTop: '7px', height: '40px' }}>
 					{artists.map((artist, index) => (
-						<>
+						<div key={artist.id}>
 							<Link
 								onClick={e => e.stopPropagation()}
 								to={from !== 'artist' && `/artist/${artist.id}/${artist.name}`}
@@ -27,7 +27,7 @@ const AlbumCard = ({ album, onCardClick, from }) => {
 								{artist.name}
 							</Link>
 							{index !== artists.length - 1 && ', '}
-						</>
+						</div>
 					))}
 				</div>
 			</div>
