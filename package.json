@@ -2,7 +2,7 @@
   "name": "react-takehome",
   "version": "1.0.0",
   "description": "React take home challenge",
-  "homepage": "https://github.com/kaaviya-n/React-challenge.git",
+  "homepage": "https://github.com/kaaviya-n/React-challenge",
   "main": "index.js",
   "scripts": {
     "webpack": "webpack",
