@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import { render, cleanup } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import TrackCard from '../components/TrackCard/TrackCard';
@@ -22,16 +22,16 @@ const trackList = {
 const TrackCardJSX = <TrackCard track={trackList} />;
 
 it('UI testing - Track card', () => {
-	const tree = renderer.create(<HashRouter>{TrackCardJSX}</HashRouter>).toJSON();
+	const tree = renderer.create(<BrowserRouter>{TrackCardJSX}</BrowserRouter>).toJSON();
 	expect(tree).toMatchSnapshot();
 });
 
 it('renders Track card component', () => {
-	render(TrackCardJSX, {wrapper: HashRouter});
+	render(TrackCardJSX, {wrapper: BrowserRouter});
 });
 
 it('Should render without throwing an error', () => {
 	expect(render(
-		TrackCardJSX, {wrapper: HashRouter}
+		TrackCardJSX, {wrapper: BrowserRouter}
 	)).not.toBeNull();
 });

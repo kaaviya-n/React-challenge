@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import { render, cleanup, fireEvent } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import AlbumCard from '../components/AlbumCard/AlbumCard';
@@ -31,16 +31,16 @@ const albumData = {
 const AlbumJSX = <AlbumCard album={albumData} />;
 
 it('UI testing - Album card', () => {
-	const tree = renderer.create(<HashRouter>{AlbumJSX}</HashRouter>).toJSON();
+	const tree = renderer.create(<BrowserRouter>{AlbumJSX}</BrowserRouter>).toJSON();
 	expect(tree).toMatchSnapshot();
 });
 
 it('renders Album card component', () => {
-	render(AlbumJSX, {wrapper: HashRouter});
+	render(AlbumJSX, {wrapper: BrowserRouter});
 });
 
 it('Should render without throwing an error', () => {
 	expect(render(
-		AlbumJSX, {wrapper: HashRouter}
+		AlbumJSX, {wrapper: BrowserRouter}
 	)).not.toBeNull();
 });

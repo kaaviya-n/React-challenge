@@ -30,7 +30,7 @@ exports[`UI testing - Track card 1`] = `
       >
         <a
           className="trackArtist"
-          href="#/artist/4zCH9qm4R2DADamUHMCa6O/Anirudh Ravichander"
+          href="/artist/4zCH9qm4R2DADamUHMCa6O/Anirudh Ravichander"
           onClick={[Function]}
         >
           Anirudh Ravichander

@@ -35,7 +35,7 @@ exports[`UI testing - Album card 1`] = `
       <div>
         <a
           className="artistName"
-          href="#/artist/3kHVioJpVxlazAAKQ64pC1/Yuna"
+          href="/artist/3kHVioJpVxlazAAKQ64pC1/Yuna"
           onClick={[Function]}
         >
           Yuna
