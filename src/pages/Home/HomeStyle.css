@@ -1,0 +1,27 @@
+.homeWrapper {
+    display: flex;
+}
+.mainContent {
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-direction: column;
+}
+.sectionTitle {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.searchWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search {
+    background-color: #000000;
+    padding: 14px 30px;
+    border-radius: 25px;
+    border-color: transparent;
+    margin-right: 20px;
+}

@@ -1,0 +1,30 @@
+.topNavWrapper {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 15px;
+    height: 3rem;
+}
+.arrowList {
+    display: flex;
+    align-items: center;
+}
+.arrowWrapper {
+    padding: 12px;
+    background-color: #000000;
+    border-radius: 30px;
+    font-size: 22px;
+    margin-right: 22px;
+}
+.loginButton {
+    padding: 12px 30px;
+    border-radius: 25px;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+}
+.image {
+    width: 10rem;
+    height: 4rem;
+  }

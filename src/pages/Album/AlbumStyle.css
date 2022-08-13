@@ -1,0 +1,43 @@
+.albumWrapper {
+    display: flex;
+}
+.mainContent {
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-direction: column;
+}
+.sectionWrapper {
+    background-color: #121212;
+    min-height: 90vh;
+    padding-left: 36px;
+}
+.tableWrapper {
+    margin: 25px;
+}
+.tableHeadWrapper {
+    display: flex;
+    border-bottom: 1px solid #393939;
+}
+.tableTitle {
+    display: flex;
+    flex-grow: 1;
+}
+.tableTitle h4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #b3b3b3;
+}
+.timerIcon {
+    font-size: 24px;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: #b3b3b3;
+}
+.trackHeader {
+    margin-left: 20px;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 600;
+}

@@ -1,0 +1,39 @@
+.title {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 700;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.artistName {
+    font-size: 14px;
+    color: #b3b3b3;
+}
+.artistName:hover {
+    border-bottom: 1px solid #b3b3b3;
+}
+.playlistWrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.playlistCardWrapper {
+    text-align: center;
+    padding: 14px 16px;
+    background: #181818;
+    border-radius: 4px;
+    margin: 6px 8px;
+    transition: 0.3s;
+}
+.playlistCardWrapper:hover {
+    background-color: #282828;
+}
+.albumImage {
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 8px;
+    margin: 0 auto;
+}

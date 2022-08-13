@@ -1,31 +1,27 @@
-import React, { Component} from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Home from "./pages/Home";
-import "./global.css"
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-/**
- * The starting page for your App
- */
+import Home from './pages/Home/Home';
+import Album from './pages/Album/Album';
+import Artist from './pages/Artist/Artist';
+import Login from './pages/Login/Login';
 
-class App extends Component{
-  render(){
-    return(
-      <>
-        <BrowserRouter>
-          <Header />
-          <main>
-            <section>
-                <Routes>
-                  <Route path={"/"} element={<Home />} />
-                </Routes>
-            </section>
-          </main>
-        </BrowserRouter>
-      </>
+import './global.css';
 
-    );
-  }
-}
+const App = () => {
+	return (
+		<>
+			<BrowserRouter>
+				<Routes>
+					<Route path="/login" element={<Login />} />
+					<Route path={'/'} element={<Home />} />
+					<Route path="/album/:id" element={<Album />} />
+					<Route path="/artist/:id/:name" element={<Artist />} />
+				</Routes>
+			</BrowserRouter>
+		</>
+
+	);
+};
 
 export default App;

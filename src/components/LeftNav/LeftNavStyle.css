@@ -1,0 +1,29 @@
+.navWrapper {
+    width: 12rem;
+    min-height: 0;
+    display: flex;
+    /* flex: 1; */
+    flex-direction: column;
+  }
+  .flexWrapper {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+  }
+  .image {
+    width: 10rem;
+    height: 4rem;
+  }
+  .icon {
+    color: #B3B3B3;
+    font-size: 22px;
+  }
+  h4:active {
+      color: #ffffff;
+  }
+  h4 {
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #B3B3B3;
+  } 
