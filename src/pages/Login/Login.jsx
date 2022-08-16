@@ -4,7 +4,7 @@ import SpotifyLogo from '../../assets/Spotify-Logo.svg';
 import './LoginStyle.css';
 
 const CLIENT_ID = 'b073c76191e74fb9b68399b49020d30a';
-const REDIRECT_URI = 'http://192.168.1.110:8080/';
+const REDIRECT_URI = 'http://localhost:8080/';
 const AUTH_ENDPOINT = 'https://accounts.spotify.com/authorize?';
 const RESPONSE_TYPE = 'token';
 const scope = ['user-read-private user-read-email'];
